@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 실습 산출물 (재생성 가능)
+cache/
+qdrant_storage/
+
+# 실습 자료 PDF (용량 큼, 배포 제한 자료)
+PDF/
+
+# 비밀 값 (OPENAI_API_KEY 등)
+.env
+
+# macOS
+.DS_Store
